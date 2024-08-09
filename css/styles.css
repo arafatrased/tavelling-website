@@ -27,7 +27,7 @@ h3{
     font-weight: 700;
 }
 h4{
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255);
     font-size: 1.5rem;
 }
 .btn-primary{
@@ -192,6 +192,7 @@ h4{
     border-radius: 1.8rem;
     background-size: cover;
     height: 300px;
+    filter: brightness(80%);
 }
 .img-box-1{
     grid-area: img-box-1;
