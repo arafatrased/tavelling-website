@@ -26,6 +26,10 @@ h3{
     font-size: 2rem;
     font-weight: 700;
 }
+h4{
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.5rem;
+}
 .btn-primary{
     width: 174px;
     height: 52px;
@@ -138,6 +142,13 @@ h3{
     align-items: start;
     row-gap: 20px;
     padding-left: 1px;
+    font-size: 1rem ;
+}
+.popular-content p{
+    line-height: 2rem;
+}
+.lists li{
+    margin-top: 9px;
 }
 .popular-content ul>li{
     line-height: 25px;
@@ -147,4 +158,71 @@ h3{
 .popular-img img{
     width: 100%;
     height: 100%;
+}
+
+
+/* desttionation sttyles */
+
+.destination-description{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: .9rem;
+}
+
+.your-destination-section h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-img-container{
+    display: grid;
+    gap:30px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img-box-1 img-box-1 img-box-1 img-box-1 img-box-1 img-box-1 img-box-2 img-box-2 img-box-2 img-box-2 img-box-2 img-box-2" "img-box-3 img-box-3  img-box-3 img-box-3 img-box-4 img-box-4 img-box-4 img-box-4 img-box-4 img-box-5 img-box-5 img-box-5" "img-box-6 img-box-6 img-box-6 img-box-6 img-box-6 img-box-7 img-box-7 img-box-7 img-box-7 img-box-7 img-box-7 img-box-7";
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius: 1.8rem;
+    background-size: cover;
+    height: 300px;
+}
+.img-box-1{
+    grid-area: img-box-1;
+    background-image: url('../images/maldeve.png');
+}
+
+.img-box-2{
+    grid-area: img-box-2;
+    background-image: url('../images/indonesia.png');
+}
+
+.img-box-3{
+    grid-area: img-box-3;
+    background-image: url('../images/srilanka.png');
+}
+
+.img-box-4{
+    grid-area: img-box-4;
+    background-image: url('../images/northamerica.png');
+}
+
+.img-box-5{
+    grid-area: img-box-5;
+    background-image: url('../images/kashmir.png');
+}
+
+.img-box-6{
+    grid-area: img-box-6;
+    background-image: url('../images/bangladesh.png');
+}
+.img-box-7{
+    grid-area: img-box-7;
+    background-image: url('../images/bandorban.png');
 }
