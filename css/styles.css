@@ -305,6 +305,7 @@ h5{
     height: 500px;
     padding: 50px;
     margin-bottom: 30px;
+    border-radius: 1rem;
 }
 
 .offer-1{
@@ -380,4 +381,108 @@ h5{
     color: rgb(255, 84, 0);
     font-size: 1.2rem;
     font-weight: 800;
+}
+
+.all-package-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* get-lost section */
+
+.get-lost-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    margin-bottom: 100px;
+}
+
+.get-lost-content{
+    line-height: 25px;
+    padding: 10px;
+    min-height: 600px;
+}
+.get-lost-content h3{
+    margin-bottom: 20px;
+}
+.get-lost-video{
+    border-radius: 1rem;
+}
+.get-lost-content button{
+    margin-top: 20px;
+}
+
+
+/* newslater styles */
+
+.newslater-section{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.newslater-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:15px;
+    height: 500px;
+    border:2px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.newslater-form input{
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(249, 243, 236);
+}
+.subscribe-btn{
+    width: auto;
+    height: 60px;
+}
+
+.newslater-img{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-image: url('../images/newslater.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.save-upto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    right: 5px;
+    width: 324px;
+    height: 120px;   
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    padding:20px;
+    transform: rotate(-30deg);
+}
+
+.save-upto p{
+    color: white;
+}
+
+/* footer styles */
+
+
+#footer{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
 }
