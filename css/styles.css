@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: "Mulish", sans-serif;
 }
@@ -254,7 +255,7 @@ h5{
     justify-content: center;
     padding: 20px;
     height: 300px;
-    max-width: 45%;
+    min-width: 45%;
     border: 2px solid red;
 }
 .card-1{
@@ -278,6 +279,7 @@ h5{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    gap:50px;
 
 }
 
@@ -407,6 +409,7 @@ h5{
 }
 .get-lost-video{
     border-radius: 1rem;
+    min-height: 400px;
 }
 .get-lost-content button{
     margin-top: 20px;
@@ -482,7 +485,23 @@ h5{
 
 
 #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
     height: 500px;
+}
+.social-icons{
+    display: flex;
+    gap:20px;
+}
+#hr{
+    width: 50%;
+}
+
+.hide{
+    display: none;
 }

@@ -1,0 +1,89 @@
+
+
+/* for Mobile responsive */
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-lists, .banner-inputs{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .popular-section{
+        grid-template-columns:1fr;
+    }
+    .destination-img-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: "img-box-1" "img-box-2" "img-box-3" "img-box-4" "img-box-5" "img-box-6" "img-box-7"  ;
+    }
+    .row-a{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .discount-box{
+        height: 500px;
+        padding: 5px;
+    }
+    .offer-price-1{
+        max-width: 600px;
+        max-height: 90%;
+        padding: 10px;
+    }
+    .get-lost-section{
+        grid-template-columns: 1fr;
+    }
+    .newslater-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+
+
+/* Medium devices */
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .navbar, .nav-lists, .banner-inputs{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .popular-section{
+        grid-template-columns:1fr;
+    }
+    .row-a{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .get-lost-section{
+        grid-template-columns: 1fr;
+    }
+    .newslater-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .navbar, .banner-inputs{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .popular-section{
+        grid-template-columns:1fr;
+    }
+    .row-a{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .get-lost-section{
+        grid-template-columns: 1fr;
+    }
+    .newslater-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
